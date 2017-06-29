@@ -1,0 +1,710 @@
+@media only screen and (max-width: 320px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          width: 100%;
+          display: inline-block;
+          #logo {
+            margin: 3% 0 0 15%;
+          }
+        }
+        #menu {
+          width: 30%;
+          margin-top: 2%;
+          display: inline-block;
+          font-size: 80%;
+        }
+        #search-container {
+          display: inline-block;
+          width: 80%;
+          margin: 0% 2% 0 7%;
+          #icon-container {
+            img {
+              width: 350%;
+              height: auto;
+            }
+          }
+        }
+      }
+      #left-section {
+        width: 96%;
+        margin-right: 20%;
+        float: none;
+        #left-header {
+          width: auto;
+          font-size: 2rem;
+        }
+        form {
+          input[type=text] {
+            width: 40%;
+          }
+          input[type=email] {
+            width: 60%;
+          }
+          input#phone[type=text] {
+            width: 60%;
+          }
+          input[type=submit] {
+            width: 50%;
+            float: none;
+          }
+          p {
+            width: auto;
+            font-size: 1.2rem;
+          }
+        }
+      }
+      #section-right {
+        margin: 2%;
+        padding: 0;
+        width: 96%;
+        float: none;
+        display: inline-block;
+        #section-border {
+          border-left: none;
+          border-top: 2px solid #878787;
+        }
+      }
+      footer#footer {
+        margin-top: 10%;
+        width: 100%;
+        font-size: 1.2rem;
+        #Rutrum {
+          width: 40%;
+          margin: 10% 2% 12% 0;
+          #rutrum-block {
+            width: 80%;
+          }
+        }
+        #Malesuada {
+          width: 40%;
+          margin: 0 0 12% 1%;
+          #malesuada-block {
+            width: 80%;
+          }
+        }
+        #Pellentesque {
+          width: 44%;
+          margin: 0 0 12% 0;
+          #pellentesque-block {
+            width: 80%;
+          }
+        }
+        #Quisque {
+          width: 35%;
+          margin-right: 6%;
+          #quisque-block {
+            width: 70%;
+          }
+        }
+        #buttons {
+          width: 100%;
+          margin-left: 5%;
+        }
+      }
+    }
+  }
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          width: 100%;
+          display: inline-block;
+          #logo {
+            margin: 2% 0 0 15%;
+          }
+        }
+        #menu {
+          width: 30%;
+          display: inline-block;
+          font-size: 85%;
+        }
+        #search-container {
+          display: inline-block;
+          width: 85%;
+          margin: 0% 6% 0 6%;
+          #icon-container {
+            img {
+              width: 300%;
+              height: auto;
+            }
+          }
+        }
+      }
+      section {
+        &#left-section {
+          margin-right: 5%;
+          padding: 0;
+          width: 100%;
+          float: none;
+          #left-header{
+            font-size: 2.1rem;
+          }
+          form {
+            margin-right: 10%;
+            input[type=text] {
+              width: 30%;
+            }
+            input[type=email] {
+              width: 60%;
+            }
+            input#phone[type=text] {
+              width: 60%;
+            }
+            input[type=submit] {
+              width: 50%;
+              float: none;
+            }
+            p {
+              width: auto;
+              font-size: 1.2rem;
+            }
+          }
+        }
+        &#section-right {
+          width: 100%;
+          float: none;
+          display: inline-block;
+          #section-border {
+            padding: 0;
+            border-left: none;
+            border-top: 2px solid #878787;
+          }
+          #right-header{
+            width: 60%;
+            margin-left: 17%;
+          }
+          .featured-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+          .second-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+        }
+      }
+      footer#footer {
+        width: 100%;
+        margin-top: 10%;
+        #Rutrum {
+          width: 40%;
+          margin: 0 0% 12% 0;
+          #rutrum-block {
+            width: 50%;
+          }
+        }
+        #Malesuada {
+          width: 40%;
+          margin: 0 0 12% 1%;
+          #malesuada-block {
+            width: 65%;
+          }
+        }
+        #Pellentesque {
+          width: 40%;
+          margin: 0 0 12% 0;
+          #pellentesque-block {
+            width: 70%;
+          }
+        }
+        #Quisque {
+          width: 35%;
+          margin-right: 6%;
+          #quisque-block {
+            width: 60%;
+          }
+        }
+        #buttons {
+          width: 100%;
+          margin-left: 7%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 568px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          padding: 0;
+          width: 100%;
+          display: inline-block;
+          #logo {
+            margin: 1.5% 0 0 12%;
+          }
+        }
+        #menu {
+          padding: 0;
+          float: none;
+          width: 100%;
+          display: inline-block;
+          font-size: 85%;
+          ul{
+            margin-left: -3%;
+          }
+        }
+        #search-container {
+          display: inline-block;
+          width: 85%;
+          margin: 1% 6% 0 14%;
+          #icon-container {
+            img {
+              width: 200%;
+              height: auto;
+            }
+          }
+        }
+      }
+      section {
+        &#left-section {
+          margin-right: 5%;
+          padding: 0;
+          width: 100%;
+          float: none;
+          #left-header{
+            font-size: 2.1rem;
+          }
+          form {
+            margin-right: 10%;
+            input[type=text] {
+              width: 30%;
+            }
+            input[type=email] {
+              width: 60%;
+            }
+            input#phone[type=text] {
+              width: 60%;
+            }
+            input[type=submit] {
+              width: 50%;
+              float: none;
+            }
+            p {
+              width: auto;
+              font-size: 1.2rem;
+            }
+          }
+        }
+        &#section-right {
+          padding: 0;
+          width: 100%;
+          float: none;
+          display: inline-block;
+          #section-border {
+            border-left: none;
+            border-top: 2px solid #878787;
+          }
+          #right-header{
+            width: 100%;
+            margin-left: 15%;
+          }
+          .featured-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+          .second-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+        }
+      }
+      footer#footer {
+        width: 100%;
+        margin-top: 10%;
+        #Rutrum {
+          width: 30%;
+          margin: 0 0% 5% 0;
+          #rutrum-block {
+            width: 50%;
+          }
+        }
+        #Malesuada {
+          width: 33%;
+          margin: 0 0 5% 0%;
+          #malesuada-block {
+            width: 55%;
+          }
+        }
+        #Pellentesque {
+          width: 30%;
+          margin: 0 0 5% 0;
+          #pellentesque-block {
+            width: 70%;
+          }
+        }
+        #Quisque {
+          width: 36%;
+          margin-right: 5%;
+          #quisque-block {
+            width: 40%;
+          }
+        }
+        #buttons {
+          margin-top: 3%;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 640px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          width: 100%;
+          padding: 0;
+          display: inline-block;
+          #logo {
+            margin: 1.4% 0 0 10%;
+          }
+        }
+        #menu {
+          width: 70%;
+          display: inline-block;
+          font-size: 80%;
+          position: relative;
+          ul{
+            margin-left: -4%;
+            padding: 0;
+          }
+        }
+        #search-container {
+          width: 15%;
+          display: inline-block;
+          margin: 0 0 0 3%;
+          #icon-container {
+            width: 100%;
+            img {
+              height: auto;
+            }
+          }
+        }
+      }
+      section {
+        &#left-section {
+          margin-right: 5%;
+          padding: 0;
+          width: 100%;
+          float: none;
+          #left-header{
+            font-size: 2.1rem;
+          }
+          form {
+            margin-right: 10%;
+            input[type=text] {
+              width: 25%;
+            }
+            input[type=email] {
+              width: 60%;
+            }
+            input#phone[type=text] {
+              width: 60%;
+            }
+            input[type=submit] {
+              width: 50%;
+              float: none;
+            }
+            p {
+              width: auto;
+              font-size: 1.2rem;
+            }
+          }
+        }
+        &#section-right {
+          padding: 0;
+          width: 100%;
+          float: none;
+          display: inline-block;
+          #section-border {
+            border-left: none;
+            border-top: 2px solid #878787;
+          }
+          #right-header{
+            width: 100%;
+            margin-left: 15%;
+          }
+          .featured-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+          .second-article{
+            width: 60%;
+            margin-left: 15%;
+          }
+        }
+      }
+      footer#footer {
+        width: 100%;
+        margin-top: 10%;
+        #Rutrum {
+          width: 30%;
+          margin: 0 0% 5% 0;
+          #rutrum-block {
+            width: 50%;
+          }
+        }
+        #Malesuada {
+          width: 33%;
+          margin: 0 0 5% 0%;
+          #malesuada-block {
+            width: 40%;
+          }
+        }
+        #Pellentesque {
+          width: 30%;
+          margin: 0 0 5% 0;
+          #pellentesque-block {
+            width: 50%;
+          }
+        }
+        #Quisque {
+          width: 36%;
+          margin-right: 5%;
+          #quisque-block {
+            width: 40%;
+          }
+        }
+        #buttons {
+          margin-top: 3%;
+          width: 50%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          width: 100%;
+          padding: 0;
+          display: inline-block;
+          #logo {
+            margin: 1% 0 0 9%;
+          }
+        }
+        #menu {
+          width: 70%;
+          display: inline-block;
+          font-size: 80%;
+          position: relative;
+          ul{
+            margin-left: -4%;
+            padding: 0;
+          }
+        }
+        #search-container {
+          width: 15%;
+          display: inline-block;
+          margin: 0 0 0 3%;
+          #icon-container {
+            width: 100%;
+            img {
+              height: auto;
+            }
+          }
+        }
+      }
+      section {
+        &#left-section {
+          margin-top: 6%;
+          width: 60%;
+          #left-header{
+            font-size: 2.1rem;
+          }
+          form {
+            margin-right: 10%;
+            input[type=text] {
+              width: 40%;
+            }
+            input[type=email] {
+              width: 60%;
+            }
+            input#phone[type=text] {
+              width: 60%;
+            }
+            input[type=submit] {
+              width: 50%;
+            }
+            p {
+              width: auto;
+              font-size: 1.2rem;
+            }
+          }
+        }
+        &#section-right {
+          padding: 2%;
+          width: 35%;
+          display: inline-block;
+          #right-header {
+            width: 100%;
+          }
+        }
+      }
+      footer#footer {
+        width: 100%;
+        margin-top: 5%;
+        #Rutrum {
+          width: 20%;
+          margin: 0 1% 5% 2%;
+          #rutrum-block {
+            width: 50%;
+          }
+        }
+        #Malesuada {
+          width: 22%;
+          margin: 0 2% 5% 0%;
+          #malesuada-block {
+            width: 80%;
+          }
+        }
+        #Pellentesque {
+          width: 20%;
+          margin: 0 4%  5% 0;
+          #pellentesque-block {
+            width: 80%;
+          }
+        }
+        #Quisque {
+          width: 20%;
+          margin-right: 2%;
+          #quisque-block {
+            width: 50%;
+          }
+        }
+        #buttons {
+          margin-left: 3%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  html {
+    body {
+      header#top-header {
+        width: 100%;
+        #container-one {
+          width: 100%;
+          padding: 0;
+            display: inline-block;
+            #logo {
+              margin: 1% 0 0 7%;
+            }
+          }
+          #menu {
+            width: 70%;
+            display: inline-block;
+            font-size: 80%;
+            position: relative;
+            ul{
+              margin-left: -4%;
+              padding: 0;
+          }
+        }
+        #search-container {
+          width: 15%;
+          display: inline-block;
+          margin: 0 0 0 3%;
+          #icon-container {
+            width: 100%;
+            img {
+              height: auto;
+            }
+          }
+        }
+      }
+      section {
+        &#left-section {
+          margin-top: 6%;
+          width: 60%;
+          #left-header{
+            font-size: 2.1rem;
+          }
+          form {
+            margin-right: 10%;
+            input[type=text] {
+              width: 40%;
+            }
+            input[type=email] {
+              width: 60%;
+            }
+            input#phone[type=text] {
+              width: 60%;
+            }
+            input[type=submit] {
+              width: 50%;
+            }
+            p {
+              width: auto;
+              font-size: 1.2rem;
+            }
+          }
+        }
+        &#section-right {
+          padding: 2%;
+          width: 35%;
+          display: inline-block;
+          #right-header {
+            width: 100%;
+          }
+        }
+      }
+      footer#footer {
+        width: 100%;
+        margin-top: 5%;
+        #Rutrum {
+          width: 20%;
+          margin: 0 1% 5% 2%;
+          #rutrum-block {
+            width: 50%;
+          }
+        }
+        #Malesuada {
+          width: 22%;
+          margin: 0 2% 5% 0%;
+          #malesuada-block {
+            width: 60%;
+          }
+        }
+        #Pellentesque {
+          width: 20%;
+          margin: 0 4%  5% 0;
+          #pellentesque-block {
+            width: 60%;
+          }
+        }
+        #Quisque {
+          width: 20%;
+          margin-right: 2%;
+          #quisque-block {
+            width: 40%;
+          }
+        }
+        #buttons {
+          margin-left: 3%;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
